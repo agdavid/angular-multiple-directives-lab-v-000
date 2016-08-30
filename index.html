@@ -24,12 +24,12 @@
             <form>
                 <div>
                     <label>Name</label>
-                    <input ng-model="name"/>
+                    <input ng-model="vm.name"/>
                 </div>
 
                 <div>
                     <label>Phone</label>
-                    <input ng-model="phoneNumber"/>
+                    <input ng-model="vm.phoneNumber"/>
                 </div>
                 <button type="submit" ng-click="vm.addContact(name, phoneNumber)">Add Contact</button>
             </form>
